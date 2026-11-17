@@ -1,10 +1,10 @@
 # ConnMTP User Guide
 
-[README](../README.md) · [About](ABOUT.md) · [Tiếng Việt](vi/HUONG-DAN-SU-DUNG.md)
-
 ConnMTP lets you browse and copy files between a Mac and an Android phone, a camera or any other MTP device over a USB cable. You don't need to install ADB or turn on USB debugging.
 
 New to ConnMTP? Read [About ConnMTP](ABOUT.md) for what the app does and which devices it supports.
+
+[Download](https://github.com/LinhDinhDev/ConnMTP/releases/tag/Release)
 
 ## Contents
 
