@@ -30,7 +30,27 @@ New to ConnMTP? Read [About ConnMTP](ABOUT.md) for what the app does and which d
 2. Drag **ConnMTP** into the **Applications** folder.
 3. Open ConnMTP from Launchpad or the Applications folder.
 
-**The first time you open it**, macOS may block the app because Apple hasn't notarized it. See [Opening ConnMTP when macOS shows a warning](ABOUT.md#opening-connmtp-when-macos-shows-a-warning) for the steps on each macOS version.
+## Opening ConnMTP when macOS shows a warning
+
+### Why the warning appears
+
+ConnMTP is not distributed through the App Store and is not notarized by Apple. When you open an app like this for the first time, macOS's Gatekeeper blocks it and shows one of these messages:
+
+- *“ConnMTP” can't be opened because Apple cannot check it for malicious software.* (macOS 13–14)
+- *“ConnMTP” Not Opened. Apple could not verify “ConnMTP” is free of malware that may harm your Mac or compromise your privacy.* (macOS 15 and later)
+
+This means Apple hasn't reviewed the app. It does not mean malware was found. You only need to allow the app once; after that it opens normally.
+
+### macOS 15 (Sequoia) and later
+
+1. Open ConnMTP. When the warning appears, click **Done** (not *Move to Trash*).
+2. Open **System Settings ▸ Privacy & Security**.
+3. Scroll down to the **Security** section. You'll see *“ConnMTP” was blocked to protect your Mac.*
+4. Click **Open Anyway**.
+5. Enter your Mac's password (or use Touch ID) if asked.
+6. In the dialog that appears, click **Open Anyway** again.
+
+The **Open Anyway** button only shows for about an hour after you tried to open the app. If you don't see it, open ConnMTP again and repeat from step 1.
 
 ## 2. Connecting a device
 
